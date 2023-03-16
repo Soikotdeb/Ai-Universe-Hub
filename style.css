@@ -1,0 +1,33 @@
+.modal-dialog{
+    max-width: 70%;
+    height: 100%;
+  }
+  .colorfull{
+    background: #f4eaea;
+  }
+
+  #spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  }
+  
+  /* modal respnsive */
+  
+  @media (max-width: 576px) {
+    /* reduce the width of the modal dialog for small screens */
+    .modal-dialog {
+      max-width: 90%;
+    }
+  
+    /* stack the cards vertically on small screens */
+    .d-flex.gap-1 {
+      flex-wrap: wrap;
+    }
+  
+    /* adjust the width of the cards to fit the screen */
+    .col {
+      width: 100%;
+    }
+  }
+  
